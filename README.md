@@ -40,7 +40,8 @@ For those who wants a simple approach without failure warning, have a look at th
 - 1N4148 diode
 
 ### Schematic
-TODO
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/resources/FanInterFace_schem.png "Schematic")
+
 
 ### Code
 The code is available in the https://github.com/Orgjvr/FanInterface/blob/master/FanSimulator/src/main.cpp file. I am using the excellent PlatformIO, and I also included the platformio.ini file as well if you want to use the same mcu. Otherwise adjust it as you need.
