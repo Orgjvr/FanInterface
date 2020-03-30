@@ -24,11 +24,13 @@ And last but not least, here is a picture of the broken original fan:
 ## Did I try anything else?
 Initially I tried a replacement fan, but as it was outputting pulses at too slow a rate, it still did not work. Next I thought to build this solution with an ESP8266-01 as I had loads of them available, but the power supply to the fan was not stable enough to keep the ESP8266 up and running. After changing to a Arduino Pro Mini, I had a stable solution.
 
+For those who wants a simple approach without failure warning, have a look at the comment by Frank in #12 on this blog: https://www.ispcolohost.com/2015/02/27/quieting-down-the-noisy-cyberpower-ol3000rtxl2u-ups/
+
 ## How to build the Fan Interface?
 
 ### What do I need?
 - An arduino Pro Mini 3.3V (Or any similar mcu)
-- PSU. I used a AMS1117 based psu to convert from 12V to 3.3V: https://www.banggood.com/5V-To-3_3V-DC-DC-Step-Down-Power-Supply-Buck-Module-AMS1117-800MA-p-933674.html
+- PSU. I used a AMS1117 based psu to convert from 12V to 3.3V: https://www.banggood.com/5V-To-3_3V-DC-DC-Step-Down-Power-Supply-Buck-Module-AMS1117-800MA-p-933674.html Most likely this is unneeded, but I had it because of the ESP8266-01 I used initially.
 - 2 x 3 Pin Male connectors
 - 3 Pin Female connector
 - 2 x 12 Pin Female connector (Optional) for Arduino Pro Mini.
