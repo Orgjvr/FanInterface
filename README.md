@@ -7,6 +7,20 @@ After a power failure, my UPS did not stop beeping. Then I realised that it does
 ## So what is this?
 This interface connects between a fan controller and a fan, and lets you output a specific speed to the controller independant of the connected fan speed, while still monitoring the connected fan speed. As long as the fan speed is above a set limit, it will output the required pulses to the controller. But as soon as the fan speed drop below the limit, then it will also stop the simulated fan speed and the original fan controller can decide what to do with the failure. 
 
+Here is a picture of the final prototype on a breadboard:
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/BreadboardTest.png "Picture of the final prototype on a breadboard")
+
+Here is a picture of the top of the fan interface as well as the bottom:
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/ModuleTop.png "The Top of the module")
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/ModuleBottom.png "The Bottom of the module")
+
+Here is the fan interface working inside the UPS:
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/ModuleInUPS1.png "Fan interface inside UPS")
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/ModuleInUPS2.png "Another fan interface inside UPS")
+
+And last but not least, here is a picture of the broken original fan:
+![alt text](https://github.com/Orgjvr/FanInterface/blob/master/pics/fan.png "Broken Original fan")
+
 ## Did I try anything else?
 Initially I tried a replacement fan, but as it was outputting pulses at too slow a rate, it still did not work. Next I thought to build this solution with an ESP8266-01 as I had loads of them available, but the power supply to the fan was not stable enough to keep the ESP8266 up and running. After changing to a Arduino Pro Mini, I had a stable solution.
 
