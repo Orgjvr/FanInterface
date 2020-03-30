@@ -40,4 +40,7 @@ Initially I tried a replacement fan, but as it was outputting pulses at too slow
 ### Schematic
 TODO
 
+### Code
+The code is available in the https://github.com/Orgjvr/FanInterface/blob/master/FanSimulator/src/main.cpp file. I am using the excellent PlatformIO, and I also included the platformio.ini file as well if you want to use the same mcu. Otherwise adjust it as you need.
+
 
